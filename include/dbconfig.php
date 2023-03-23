@@ -9,7 +9,7 @@ if (session_status() == PHP_SESSION_NONE) {
 $server = "localhost";
 $username = "root";
 $password = "root";
-$database = "dashboard";
+$database = "database";
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 try {
